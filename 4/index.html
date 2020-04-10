@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>Задание 4</title>
+</head>
+<body>
+
+    <style>
+        .form {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid #eee;
+            padding: 0 20px 10px 20px;
+        }
+        textarea {
+            width: 300px;
+            height: 80px;
+            margin: 0 0 10px 0;
+            resize: none;
+        }
+
+        .zametki {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        .zametka {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 200px;
+            height: 200px;
+            background-color: #eee;
+            padding: 20px;
+            word-break: break-all;
+            margin: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+    <div class="form">
+        <h2>Записная книжка</h2>
+        <textarea placeholder="Текст"></textarea>
+        <button>Записать</button>
+    </div>
+    <p class="count"></p>
+
+    <div class="zametki"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
